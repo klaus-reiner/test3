@@ -1,0 +1,13 @@
+<mvc:View id="appview"
+xmlns="sap.m"
+xmlns:mvc="sap.ui.core.mvc"
+diplayBlock="true">
+<App id="app">
+<!-- <pages> -->
+<!-- <mvc:XMLView id="masterPage" -->
+<!-- viewName="sapui5.demo.mvcapp.view.Master" /> -->
+<!-- <mvc:XMLView id="detailPage" -->
+<!-- viewName="sapui5.demo.mvcapp.view.Detail" /> -->
+<!-- </pages> -->
+</App>
+</mvc:View>

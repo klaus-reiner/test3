@@ -1,0 +1,17 @@
+<mvc:View
+xmlns="sap.m"
+xmlns:mvc="sap.ui.core.mvc"
+controllerName="avantum.de.b_ui5_005.controller.Detail">
+<Page navButtonPress="onNavPress" showNavButton="true" title="Supplier Detail XML">
+<content>
+<ObjectHeader
+title="{Name}"
+number="ID: {ID}">
+<attributes>
+<ObjectAttribute
+text="{Address/Country}" />
+</attributes>
+</ObjectHeader>
+</content>
+</Page>
+</mvc:View>

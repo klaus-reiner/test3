@@ -1,0 +1,29 @@
+<mvc:View 
+xmlns="sap.m"
+xmlns:mvc="sap.ui.core.mvc" 
+controllerName="avantum.de.b_ui5_005.controller.Master">
+<Page title="Supplier Overview XML">
+<content>
+<Table class="sapUiResponsiveMargin" width="auto" items="{/Suppliers}">
+<headerToolbar>
+<Toolbar>
+<Label id="tableHeader"
+text="Number of Suppliers: {/CountSuppliers}"/>
+</Toolbar>
+</headerToolbar>
+<columns>
+<Column><header><Text text="ID"/></header></Column>
+<Column><header><Text text="Name"/></header></Column>
+</columns>
+<items>
+<ColumnListItem type="Navigation" press="onListPress">
+<cells>
+<ObjectIdentifier text ="{ID}"/>
+<ObjectIdentifier text ="{Name}"/>
+</cells>
+</ColumnListItem>
+</items>
+</Table>
+</content>
+</Page>  
+</mvc:View>
